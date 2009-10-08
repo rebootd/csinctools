@@ -9,8 +9,7 @@ using NHibernate.Cfg;
 using NHibernate.Tool.hbm2ddl;
 using FluentNHibIntro.Entities;
 using FluentNHibIntro.Mappings;
-using MbUnit.Core;
-using MbUnit.Framework;
+using NUnit.Framework;
 
 namespace FluentNHibIntro
 {
@@ -81,7 +80,7 @@ namespace FluentNHibIntro
                     var links = session.CreateCriteria(typeof(WebLink)).List<WebLink>();
 
                     //make sure there are links
-                    Assert.GreaterThan(links.Count, 0);
+                    Assert.Greater(links.Count, 0);
                 }
             }
         }
@@ -99,7 +98,7 @@ namespace FluentNHibIntro
                     var pages = session.CreateCriteria(typeof(Page)).List<Page>();
 
                     //make sure there are links
-                    Assert.GreaterThan(pages.Count, 0);
+                    Assert.Greater(pages.Count, 0);
                 }
             }
         }

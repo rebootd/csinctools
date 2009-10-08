@@ -7,7 +7,7 @@ using FluentNHibernate.Cfg.Db;
 using NHibernate;
 using NHibernate.Cfg;
 using NHibernate.Tool.hbm2ddl;
-using MbUnit.Framework;
+using NUnit.Framework;
 using FNHFirebird.Entities;
 using FNHFirebird.Mappings;
 
@@ -65,7 +65,7 @@ namespace FNHFirebird
                     var links = session.CreateCriteria(typeof(WebLink)).List<WebLink>();
 
                     //make sure there are links
-                    Assert.GreaterThan(links.Count, 0);
+                    Assert.Greater(links.Count, 0);
                 }
             }
         }
