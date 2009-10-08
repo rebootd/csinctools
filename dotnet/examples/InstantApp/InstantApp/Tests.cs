@@ -16,10 +16,11 @@ using FluentMigrator.Runner;
 using FluentMigrator.Runner.Generators;
 using FluentMigrator.Runner.Processors;
 using FluentMigrator.Runner.Versioning;
-using Xunit;
+using NUnit.Framework;
 
 namespace InstantApp
 {
+	[TestFixture]
 	public class Tests
 	{
 		private static string DbFile = "test.db";
@@ -55,7 +56,7 @@ namespace InstantApp
 			return sessionFactory;
 		}
 
-		[Fact]
+		[Test]
 		public void can_run_migration()
 		{
 			RunMigration();
@@ -64,7 +65,7 @@ namespace InstantApp
 			Assert.True(true);
 		}
 
-		[Fact]
+		[Test]
 		public void can_get_nhsession()
 		{
 			//make sure the fnh mappings work and you can get an ISession
@@ -73,7 +74,7 @@ namespace InstantApp
 			Assert.True(true);
 		}
 
-		[Fact]
+		[Test]
 		public void get_list_all_users()
 		{
 			var session = CreateSessionFactory().OpenSession();
