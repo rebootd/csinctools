@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeFeedHelper", "FakeFeedHelper\FakeFeedHelper.csproj", "{268FE0CE-4440-49B6-A876-67A6DDD842B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeFeedHelper.Definitions", "FakeFeedHelper.Definitions\FakeFeedHelper.Definitions.csproj", "{64DE479F-A044-4D45-8E01-77D026FD3657}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeFeedHelper.Tests", "FakeFeedHelper.Tests\FakeFeedHelper.Tests.csproj", "{6B168E2F-8647-4094-9D28-DA05E5595A7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{268FE0CE-4440-49B6-A876-67A6DDD842B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{268FE0CE-4440-49B6-A876-67A6DDD842B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{268FE0CE-4440-49B6-A876-67A6DDD842B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{268FE0CE-4440-49B6-A876-67A6DDD842B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64DE479F-A044-4D45-8E01-77D026FD3657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64DE479F-A044-4D45-8E01-77D026FD3657}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64DE479F-A044-4D45-8E01-77D026FD3657}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64DE479F-A044-4D45-8E01-77D026FD3657}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B168E2F-8647-4094-9D28-DA05E5595A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B168E2F-8647-4094-9D28-DA05E5595A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B168E2F-8647-4094-9D28-DA05E5595A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B168E2F-8647-4094-9D28-DA05E5595A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

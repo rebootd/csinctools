@@ -1,0 +1,11 @@
+C:\Dev\csinc-tools\DSL-Playground\Boo-DSL\BooBaseDSLToys\bin\Debug\BooBaseDSLToys.exe
+C:\Dev\csinc-tools\DSL-Playground\Boo-DSL\BooBaseDSLToys\bin\Debug\BooBaseDSLToys.pdb
+C:\Dev\csinc-tools\DSL-Playground\Boo-DSL\BooBaseDSLToys\bin\Debug\Boo.Lang.Compiler.dll
+C:\Dev\csinc-tools\DSL-Playground\Boo-DSL\BooBaseDSLToys\bin\Debug\Boo.Lang.dll
+C:\Dev\csinc-tools\DSL-Playground\Boo-DSL\BooBaseDSLToys\bin\Debug\Boo.Lang.Parser.dll
+C:\Dev\csinc-tools\DSL-Playground\Boo-DSL\BooBaseDSLToys\bin\Debug\Rhino.DSL.dll
+C:\Dev\csinc-tools\DSL-Playground\Boo-DSL\BooBaseDSLToys\bin\Debug\Rhino.DSL.pdb
+C:\Dev\csinc-tools\DSL-Playground\Boo-DSL\BooBaseDSLToys\bin\Debug\Rhino.DSL.xml
+C:\Dev\csinc-tools\DSL-Playground\Boo-DSL\BooBaseDSLToys\obj\Debug\ResolveAssemblyReference.cache
+C:\Dev\csinc-tools\DSL-Playground\Boo-DSL\BooBaseDSLToys\obj\Debug\BooBaseDSLToys.exe
+C:\Dev\csinc-tools\DSL-Playground\Boo-DSL\BooBaseDSLToys\obj\Debug\BooBaseDSLToys.pdb

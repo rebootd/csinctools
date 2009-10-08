@@ -1,0 +1,10 @@
+2006-05-28 19:13:13.6378|INFO|ASPNetBufferingWrapper.NormalPage|info1
+2006-05-28 19:13:13.6478|INFO|ASPNetBufferingWrapper.NormalPage|info2
+2006-05-28 19:13:52.8942|INFO|ASPNetBufferingWrapper.NormalPage|info1
+2006-05-28 19:13:52.8942|INFO|ASPNetBufferingWrapper.NormalPage|info2
+2006-05-28 19:14:08.4165|INFO|ASPNetBufferingWrapper.PageWithWarnings|info1
+2006-05-28 19:14:08.4165|DEBUG|ASPNetBufferingWrapper.PageWithWarnings|some debug message
+2006-05-28 19:14:08.4165|DEBUG|ASPNetBufferingWrapper.PageWithWarnings|some other debug message
+2006-05-28 19:14:08.4165|DEBUG|ASPNetBufferingWrapper.PageWithWarnings|yet another other debug message
+2006-05-28 19:14:08.4165|WARN|ASPNetBufferingWrapper.PageWithWarnings|warning!
+2006-05-28 19:14:08.4165|INFO|ASPNetBufferingWrapper.PageWithWarnings|info2

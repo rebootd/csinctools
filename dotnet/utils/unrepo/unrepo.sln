@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+# SharpDevelop 3.0.0.2970
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unrepo-app", "unrepo-app\unrepo-app.csproj", "{EAAE9F55-5F84-4C29-8CEC-356C992911E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unrepo-tests", "unrepo-tests\unrepo-tests.csproj", "{5C13256A-0196-413A-916E-410D18A12DD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAAE9F55-5F84-4C29-8CEC-356C992911E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAAE9F55-5F84-4C29-8CEC-356C992911E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAAE9F55-5F84-4C29-8CEC-356C992911E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAAE9F55-5F84-4C29-8CEC-356C992911E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C13256A-0196-413A-916E-410D18A12DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C13256A-0196-413A-916E-410D18A12DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C13256A-0196-413A-916E-410D18A12DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C13256A-0196-413A-916E-410D18A12DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

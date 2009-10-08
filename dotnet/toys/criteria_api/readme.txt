@@ -1,0 +1,2 @@
+This is a prototype lib for a criteria api.  It's going to be a lot less intelligent than that of nhibernate for exmple.  
+It's going to provide a slightly differnt feature/need than an ORM crieria api.

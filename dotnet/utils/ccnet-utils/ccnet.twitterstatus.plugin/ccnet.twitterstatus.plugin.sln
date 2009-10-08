@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ccnet.twitterstatus.plugin", "ccnet.twitterstatus.plugin\ccnet.twitterstatus.plugin.csproj", "{E1B7BC50-3631-4734-A95F-BCECBF5471A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ccnet.twitterstatus.tests", "ccnet.twitterstatus.tests\ccnet.twitterstatus.tests.csproj", "{620D02B3-92C2-43DE-9E1C-A57B17302A03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1B7BC50-3631-4734-A95F-BCECBF5471A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1B7BC50-3631-4734-A95F-BCECBF5471A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1B7BC50-3631-4734-A95F-BCECBF5471A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1B7BC50-3631-4734-A95F-BCECBF5471A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{620D02B3-92C2-43DE-9E1C-A57B17302A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{620D02B3-92C2-43DE-9E1C-A57B17302A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{620D02B3-92C2-43DE-9E1C-A57B17302A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{620D02B3-92C2-43DE-9E1C-A57B17302A03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
