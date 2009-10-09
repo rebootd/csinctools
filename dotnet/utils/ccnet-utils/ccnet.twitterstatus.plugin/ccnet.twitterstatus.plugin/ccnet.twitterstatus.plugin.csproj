@@ -33,7 +33,7 @@
   <ItemGroup>
     <Reference Include="NetReflector, Version=1.0.0.120, Culture=neutral, PublicKeyToken=2f4dd8b32acbcd8e">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Dependencies\cruisecontrol\NetReflector.dll</HintPath>
+      <HintPath>..\..\..\..\SharedLibs\cruisecontrol\NetReflector.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -43,15 +43,15 @@
     <Reference Include="System.Xml" />
     <Reference Include="ThoughtWorks.CruiseControl.Core, Version=1.3.0.2918, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Dependencies\cruisecontrol\ThoughtWorks.CruiseControl.Core.dll</HintPath>
+      <HintPath>..\..\..\..\SharedLibs\cruisecontrol\ThoughtWorks.CruiseControl.Core.dll</HintPath>
     </Reference>
     <Reference Include="ThoughtWorks.CruiseControl.Remote, Version=1.3.0.2918, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Dependencies\cruisecontrol\ThoughtWorks.CruiseControl.Remote.dll</HintPath>
+      <HintPath>..\..\..\..\SharedLibs\cruisecontrol\ThoughtWorks.CruiseControl.Remote.dll</HintPath>
     </Reference>
     <Reference Include="Yedda.Twitter, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Dependencies\yedda-twitter\Yedda.Twitter.dll</HintPath>
+      <HintPath>..\..\..\..\SharedLibs\yedda-twitter\Yedda.Twitter.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

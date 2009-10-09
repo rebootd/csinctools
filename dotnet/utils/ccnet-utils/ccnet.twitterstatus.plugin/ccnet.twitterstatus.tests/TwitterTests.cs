@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Xml;
 using System.Text;
 using Yedda;
-using MbUnit.Framework;
+using NUnit.Framework;
 
 namespace ccnet.twitterstatus.tests
 {
