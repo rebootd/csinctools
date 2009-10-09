@@ -8,7 +8,7 @@
  */
 using System;
 using System.IO;
-using MbUnit.Framework;
+using NUnit.Framework;
 using unrepoapp;
 
 namespace unrepo_tests
@@ -26,7 +26,8 @@ namespace unrepo_tests
 		
 		public DirectoryTest()
 		{
-            testPath = @"C:\Dev\Dependencies";
+            testPath = @"C:\Dev\test";
+			if (!Directory.Exists(testPath)) Directory.CreateDirectory(testPath);
             folderNames = new string[] {".svn", "CVS"};
             dirInfo = new DirectoryInfo(testPath);
             cleaner = new Cleaner();
