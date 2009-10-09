@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<project name="unrepo" default="build" basedir=".">
+	<description>Build the unrepo utility.</description>
+	<property name="output.dir" value="..\..\build\" />
+	<target name="clean" description="remove all generated files">
+		<delete dir="${output.dir}" failonerror="false" verbose="false" />
+		<delete dir="unrepo-app/bin" failonerror="false" verbose="false" />
+		<delete dir="unrepo-app/obj" failonerror="false" verbose="false" />
+		<delete dir="unrepo-tests/bin" failonerror="false" verbose="false" />
+		<delete dir="unrepo-tests/obj" failonerror="false" verbose="false" />
+		<delete file="unrepo.sln.cache" failonerror="true" verbose="true" />
+	</target>
+	<target name="build" description="Compiles using the AutomatedDebug Configuration">
+		<loadtasks assembly="..\..\SharedLibs\nant\NAnt.Contrib.Tasks.dll" />
+		<msbuild project="unrepo.sln">
+			<arg value="/property:Configuration=debug" />
+			<arg value="/t:Rebuild" />
+			<arg value="/p:OutDir=${output.dir}unrepoapp\"/>
+		</msbuild>
+	</target>
+	<target name="release" description="Compiles using the release Configuration">
+		<loadtasks assembly="..\..\SharedLibs\nant\NAnt.Contrib.Tasks.dll" />
+		<msbuild project="unrepo.sln">
+			<arg value="/property:Configuration=release" />
+			<arg value="/t:Rebuild" />
+			<arg value="/p:OutDir=${output.dir}unrepoapp\"/>
+		</msbuild>
+	</target>
+</project>
