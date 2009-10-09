@@ -2,11 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Xml;
-
 using FakeFeedHelper;
 using FakeFeedHelper.Definitions;
-
-using MbUnit.Framework;
+using NUnit.Framework;
 
 namespace FakeFeedHelper.Tests
 {

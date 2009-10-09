@@ -9,3 +9,10 @@ C:\Dev\csinc-tools\DSL-Playground\Boo-DSL\BooBaseDSLToys\bin\Debug\Rhino.DSL.xml
 C:\Dev\csinc-tools\DSL-Playground\Boo-DSL\BooBaseDSLToys\obj\Debug\ResolveAssemblyReference.cache
 C:\Dev\csinc-tools\DSL-Playground\Boo-DSL\BooBaseDSLToys\obj\Debug\BooBaseDSLToys.exe
 C:\Dev\csinc-tools\DSL-Playground\Boo-DSL\BooBaseDSLToys\obj\Debug\BooBaseDSLToys.pdb
+C:\dev\oss-git\csinctools\dotnet\toys\DSL-Playground\Boo-DSL\BooBaseDSLToys\obj\Debug\BooBaseDSLToys.exe
+C:\dev\oss-git\csinctools\dotnet\toys\DSL-Playground\Boo-DSL\BooBaseDSLToys\obj\Debug\BooBaseDSLToys.pdb
+C:\dev\oss-git\csinctools\dotnet\toys\DSL-Playground\Boo-DSL\BooBaseDSLToys\bin\Debug\BooBaseDSLToys.exe
+C:\dev\oss-git\csinctools\dotnet\toys\DSL-Playground\Boo-DSL\BooBaseDSLToys\bin\Debug\BooBaseDSLToys.pdb
+C:\dev\oss-git\csinctools\dotnet\toys\DSL-Playground\Boo-DSL\BooBaseDSLToys\bin\Debug\Rhino.DSL.pdb
+C:\dev\oss-git\csinctools\dotnet\toys\DSL-Playground\Boo-DSL\BooBaseDSLToys\bin\Debug\Rhino.DSL.xml
+C:\dev\oss-git\csinctools\dotnet\toys\DSL-Playground\Boo-DSL\BooBaseDSLToys\obj\Debug\ResolveAssemblyReference.cache
