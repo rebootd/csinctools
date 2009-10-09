@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using IntegrationCriteria;
-using Xunit;
+using NUnit.Framework;
 
 namespace CriteriaTests
 {
