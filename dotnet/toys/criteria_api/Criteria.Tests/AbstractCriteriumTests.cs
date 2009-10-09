@@ -4,7 +4,7 @@ using System.Text;
 using Criteria;
 using Criteria.Query;
 using Criteria.Tests.Helpers;
-using MbUnit.Framework;
+using NUnit.Framework;
 
 namespace Criteria.Tests
 {

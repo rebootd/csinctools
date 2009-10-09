@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using MbUnit.Framework;
+using NUnit.Framework;
 using Criteria;
 using Criteria.Query;
 using Criteria.Tests.Helpers;

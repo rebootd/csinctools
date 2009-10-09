@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Criteria;
-using MbUnit.Framework;
+using NUnit.Framework;
 
 namespace Criteria.Tests
 {
