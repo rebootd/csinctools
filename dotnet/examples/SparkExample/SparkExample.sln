@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkExampleWeb", "SparkExampleWeb\SparkExampleWeb.csproj", "{CCAE64D4-27E2-40EC-A61D-6AED1644310B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkExampleTests", "SparkExampleTests\SparkExampleTests.csproj", "{51B14998-F8EB-4577-B1A3-7727BB8DF92D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCAE64D4-27E2-40EC-A61D-6AED1644310B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCAE64D4-27E2-40EC-A61D-6AED1644310B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCAE64D4-27E2-40EC-A61D-6AED1644310B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCAE64D4-27E2-40EC-A61D-6AED1644310B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51B14998-F8EB-4577-B1A3-7727BB8DF92D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51B14998-F8EB-4577-B1A3-7727BB8DF92D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51B14998-F8EB-4577-B1A3-7727BB8DF92D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51B14998-F8EB-4577-B1A3-7727BB8DF92D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
