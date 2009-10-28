@@ -3,7 +3,6 @@ C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleWeb\bin\x86\D
 C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleWeb\bin\x86\Debug\FluentMigrator.dll
 C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleWeb\bin\x86\Debug\FluentMigrator.Runner.dll
 C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleWeb\bin\x86\Debug\FluentNHibernate.dll
-C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleWeb\bin\x86\Debug\log4net.dll
 C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleWeb\bin\x86\Debug\NHibernate.ByteCode.Castle.dll
 C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleWeb\bin\x86\Debug\NHibernate.dll
 C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleWeb\bin\x86\Debug\NHibernate.Linq.dll
@@ -14,7 +13,6 @@ C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleWeb\bin\x86\D
 C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleWeb\bin\x86\Debug\Antlr3.Runtime.dll
 C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleWeb\bin\x86\Debug\Castle.Core.dll
 C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleWeb\bin\x86\Debug\Iesi.Collections.dll
-C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleWeb\bin\x86\Debug\log4net.xml
 C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleWeb\bin\x86\Debug\Castle.DynamicProxy2.pdb
 C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleWeb\bin\x86\Debug\Castle.DynamicProxy2.xml
 C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleWeb\bin\x86\Debug\NHibernate.ByteCode.Castle.xml

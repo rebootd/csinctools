@@ -3,7 +3,6 @@ C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleTests\bin\x86
 C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleTests\bin\x86\Debug\FluentMigrator.dll
 C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleTests\bin\x86\Debug\FluentMigrator.Runner.dll
 C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleTests\bin\x86\Debug\FluentNHibernate.dll
-C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleTests\bin\x86\Debug\log4net.dll
 C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleTests\bin\x86\Debug\NHibernate.ByteCode.Castle.dll
 C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleTests\bin\x86\Debug\NHibernate.dll
 C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleTests\bin\x86\Debug\NHibernate.Linq.dll
@@ -18,7 +17,6 @@ C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleTests\bin\x86
 C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleTests\bin\x86\Debug\Castle.Core.dll
 C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleTests\bin\x86\Debug\Spark.Web.Mvc.pdb
 C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleTests\bin\x86\Debug\SparkExampleWeb.pdb
-C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleTests\bin\x86\Debug\log4net.xml
 C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleTests\bin\x86\Debug\Castle.DynamicProxy2.pdb
 C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleTests\bin\x86\Debug\Castle.DynamicProxy2.xml
 C:\dev\oss-git\csinctools\dotnet\examples\SparkExample\SparkExampleTests\bin\x86\Debug\NHibernate.ByteCode.Castle.xml

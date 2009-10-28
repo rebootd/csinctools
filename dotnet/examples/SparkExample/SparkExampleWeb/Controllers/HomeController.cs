@@ -1,8 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
+using System.Linq;
+using SparkExampleWeb;
+using SparkExampleWeb.Models;
+using NHibernate;
+using NHibernate.Linq;
 
 namespace SparkExampleWeb.Controllers
 {
@@ -23,6 +26,12 @@ namespace SparkExampleWeb.Controllers
 
 		public ActionResult List()
 		{
+			var session = SessionFactory.CreateSessionFactory().OpenSession();
+			var list = from c in session.Linq<User>()
+					   select c;
+
+			ViewData["User"] = list.ToList();
+
 			return View();
 		}
 	}

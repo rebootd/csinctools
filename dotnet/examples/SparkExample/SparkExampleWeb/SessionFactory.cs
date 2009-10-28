@@ -4,12 +4,14 @@ using System.Data.SQLite;
 using FluentMigrator;
 using FluentMigrator.Runner;
 using FluentMigrator.Runner.Generators;
-using NUnit.Framework;
+using FluentNHibernate.Cfg;
+using FluentNHibernate.Cfg.Db;
+using NHibernate;
+using SparkExampleWeb.Models;
 
-namespace SparkExampleTests
+namespace SparkExampleWeb
 {
-	[TestFixture]
-	public class MigrationTests
+	public class SessionFactory
 	{
 		internal static string DbFile = "test.db";
 		internal static string ConnectionString = "Data Source=test.db;Version=3;";
@@ -32,13 +34,16 @@ namespace SparkExampleTests
 			}
 		}
 
-		[Test]
-		public void can_run_migration()
+		public static ISessionFactory CreateSessionFactory()
 		{
-			RunMigration();
+			ISessionFactory sessionFactory = Fluently.Configure()
+					.Database(SQLiteConfiguration.Standard
+						.UsingFile(DbFile))
+					.Mappings(m =>
+						m.FluentMappings.AddFromAssemblyOf<User>())
+					.BuildSessionFactory();
 
-			//yes, lame.. either throws exception or passes.
-			Assert.True(true);
+			return sessionFactory;
 		}
 	}
 }

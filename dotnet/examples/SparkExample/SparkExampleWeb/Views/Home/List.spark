@@ -1,5 +1,12 @@
 ﻿<content name="main">
+	<viewdata 
+		Users="System.Collections.Generic.IList[[SparkExampleWeb.Models.User]]"/>
 
-    <h2>List</h2>
+  <h2>List</h2>
+
+	<div each="var user in Users">
+		<h4>$!{user.Id}</h4>
+		<div>$!{user.Name}</div>
+	</div>
 
 </content>
