@@ -1,11 +1,39 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" >
+<use namespace="System.Web.Mvc.Html" />
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
+    <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+    <div class="page">
 
-<use content="Main"/>
+        <div id="header">
+            <div id="title">
+                <h1>My MVC Application</h1>
+            </div>
+              
+            <div id="logindisplay">
+                login goes here
+            </div> 
+            
+            <div id="menucontainer">            
+                <ul id="menu">
+                    <li>${Html.ActionLink("Home", "Index", "Home")}</li>
+                    <li>${Html.ActionLink("About", "About", "Home")}</li>
+                    <li>${Html.ActionLink("List", "List", "Home")}</li>
+                </ul>
+            </div>
+        </div>
 
+        <div id="main">
+            <use content="main"/>
+
+            <div id="footer">
+            </div>
+        </div>
+    </div>
 </body>
+
+
 </html>

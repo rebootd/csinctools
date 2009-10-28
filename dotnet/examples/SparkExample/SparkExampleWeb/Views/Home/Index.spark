@@ -1,0 +1,8 @@
+﻿<content name="main">
+
+    <h2>Home</h2>
+    <p>
+        To learn more about ASP.NET MVC visit <a target="_blank" href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
+    </p>
+
+</content>

@@ -20,5 +20,10 @@ namespace SparkExampleWeb.Controllers
 		{
 			return View();
 		}
+
+		public ActionResult List()
+		{
+			return View();
+		}
 	}
 }
