@@ -1,8 +1,25 @@
 ﻿<content name="main">
 
-    <h2>Home</h2>
-    <p>
-        To learn more about ASP.NET MVC visit <a target="_blank" href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
-    </p>
+	<h2>Home</h2>
+	<p>
+		Go to the ${Html.ActionLink("List", "List", "Home")} page to see a list of users created using FluentMigrator, and read using NHibernate via Fluent-NHibernate
+	</p>
+	<ul>
+		<li>
+			To learn more about ASP.NET MVC visit <a target="_blank" href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
+		</li>
+		<li>
+			To learn more about Spark View Engine visit <a target="_blank" href="http://sparkviewengine.com/" title="Spark View Engine">http://sparkviewengine.com/</a>.
+		</li>
+		<li>
+			To learn more about Fluent NHibernate visit <a target="_blank" href="http://fluentnhibernate.org/" title="Fluent NHibernate">http://fluentnhibernate.org/</a>.
+		</li>
+		<li>
+			To learn more about FluentMigrator get the code from <a target="_blank" href="http://github.com/enkari/fluentmigrator" title="FluentMigrator">http://github.com/enkari/fluentmigrator</a>.
+		</li>
+		<li>
+			To learn more about NHibernate visit <a target="_blank" href="http://nhforge.org/" title="NHibernate">http://nhforge.org/</a> or <a target="_blank" href="http://tekpub.com/">http://tekpub.com/</a>
+		</li>
+	</ul>
 
 </content>

@@ -1,12 +1,19 @@
 ﻿<content name="main">
-	<viewdata 
-		Users="System.Collections.Generic.IList[[SparkExampleWeb.Models.User]]"/>
+	<viewdata model="IEnumerable[[User]]"/>
 
   <h2>List</h2>
 
-	<div each="var user in Users">
-		<h4>$!{user.Id}</h4>
-		<div>$!{user.Name}</div>
-	</div>
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<th width="50">Id</th>
+			<th width="150">Name</th>
+			<th width="150">Email</th>
+		</tr>
+		<tr each="var user in Model">
+			<td>$!{user.Id}</td>
+			<td>$!{user.Name}</td>
+			<td>$!{user.Email}</td>
+		</tr>
+	</table>
 
 </content>

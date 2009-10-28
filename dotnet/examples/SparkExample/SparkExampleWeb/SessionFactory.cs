@@ -16,7 +16,7 @@ namespace SparkExampleWeb
 		internal static string DbFile = "test.db";
 		internal static string ConnectionString = "Data Source=test.db;Version=3;";
 
-		public void RunMigration()
+		public static void RunMigration()
 		{
 			if (!File.Exists(DbFile))
 				System.Data.SQLite.SQLiteConnection.CreateFile(DbFile);
@@ -36,6 +36,8 @@ namespace SparkExampleWeb
 
 		public static ISessionFactory CreateSessionFactory()
 		{
+			RunMigration();
+
 			ISessionFactory sessionFactory = Fluently.Configure()
 					.Database(SQLiteConfiguration.Standard
 						.UsingFile(DbFile))

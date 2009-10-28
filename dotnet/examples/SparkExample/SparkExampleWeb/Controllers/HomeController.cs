@@ -27,12 +27,10 @@ namespace SparkExampleWeb.Controllers
 		public ActionResult List()
 		{
 			var session = SessionFactory.CreateSessionFactory().OpenSession();
-			var list = from c in session.Linq<User>()
+			var users = from c in session.Linq<User>()
 					   select c;
 
-			ViewData["User"] = list.ToList();
-
-			return View();
+			return View(users.ToList());
 		}
 	}
 }
